@@ -2,6 +2,7 @@
   "expo": {
     "name": "todo-list-remote-data",
     "slug": "todo-list-remote-data",
+    "owner": "erooney",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
