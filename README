@@ -1,0 +1,23 @@
+todo-list-remote-data
+
+Description: A simple todo list application written with react-native that allows remote data storage on a web API.
+
+Usage:
+    To add a todo item, simply type the todo message into the text field located at the top of the list.
+
+    To remove a todo item, tap the red X icon on the right side of any given todo.
+
+    To join todo items together, long press the list then tap the checkbox of each item you wish to join.
+    Once joined, click the join button then exit the long press mode by tapping "cancel" on the top of the app
+
+    To split todo items, simply click the green "Split!" button located on the desired todo item from the list.
+
+    To save the data you have entered for persistent storage, tap "Save" located at the top of the app.
+
+    To load the data you have entered previously, click "Load" located at the top of the app, or just relaunch the app.
+
+Known issues:
+    Occasionally when items are split they generate a blank item. Work around: delete the empty item if it is generated.
+
+    Sometimes when the app is loaded the remote data isn't automatically loaded. Work around: manually click "Load" on the homepage
+
